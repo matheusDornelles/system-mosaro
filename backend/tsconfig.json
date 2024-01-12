@@ -13,9 +13,11 @@
       "rootDir": "./src"
     },
     "include": [
+      "./src/database",
       "src/**/*.ts",
-      "src/**/*.d.ts"
-    ],
+      "src/**/*.js"
+      
+, "src/routes"    ],
     "exclude": [
       "node_modules",
       "dist"
