@@ -7,7 +7,7 @@ export interface MarkerAttributes {
   
 }
 
-class Marker extends Model<MarkerAttributes> implements MarkerAttributes {
+export class Marker extends Model<MarkerAttributes> implements MarkerAttributes {
   public id!: number;
   public position!: { lat: number; lng: number };
 
