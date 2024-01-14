@@ -21,7 +21,7 @@ const populateMarkers = async () => {
       return {
         lat: generateRandomCoordinates(alagoasBounds.south, alagoasBounds.north),
         lng: generateRandomCoordinates(alagoasBounds.west, alagoasBounds.east),
-        title: `Random Marker ${index + 1}`,
+        //title: `Random Marker ${index + 1}`,
       };
     });
 
