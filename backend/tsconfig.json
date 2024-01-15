@@ -10,7 +10,8 @@
       "resolveJsonModule": true,
       "jsx": "react",
       "declaration": true,
-      "rootDir": "./src"
+      "rootDir": "./src",
+      "types": ["sequelize/types"]
     },
     "include": [
       "./src/database",
