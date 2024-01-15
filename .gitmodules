@@ -1,0 +1,3 @@
+[submodule "system-mosaro"]
+	path = system-mosaro
+	url = https://github.com/matheusDornelles/system-mosaro
